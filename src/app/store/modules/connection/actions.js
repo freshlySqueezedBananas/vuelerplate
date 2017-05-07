@@ -1,9 +1,9 @@
 import Vue from 'vue';
 
 import {
-  sET_HOST,
+  SET_HOST,
 } from './mutation-types';
 
 export function setHost({ commit }, status) {
-  commit(sET_HOST, status);
+  commit(SET_HOST, status);
 }

@@ -50,6 +50,16 @@ VuexRouterSync.sync(store, router);
 Vue.router = router;
 
 /* ============
+ * Vuetify
+ * ============
+ * https://vuetifyjs.com/
+ */
+import Vuetify from 'vuetify'
+
+Vue.use(Vuetify);
+require('vuetify/dist/vuetify.min.css');
+
+/* ============
  * jQuery
  * ============
  * http://jquery.com/
